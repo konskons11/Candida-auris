@@ -1,0 +1,271 @@
+IQ-TREE 2.2.0 COVID-edition built Jun  1 2022
+
+Type of analysis: ModelFinder + tree reconstruction + non-parametric bootstrap (100 replicates)
+Random seed number: 529708
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 15 sequences with 403 nucleotide sites
+Number of constant sites: 390 (= 96.7742% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 390 (= 96.7742% of all sites)
+Number of parsimony informative sites: 11
+Number of distinct site patterns: 23
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: JC
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+JC                 -652.098    1358.197 - 0.000657    1362.229 -  0.00181    1466.168 +    0.464
+K2P                -650.444    1356.889 -  0.00126    1361.231 -  0.00297    1468.859 +    0.121
+JC+I               -650.627    1357.253 -  0.00105    1361.596 -  0.00248    1469.224 +    0.101
+TNe                -647.947    1353.894 -  0.00565    1358.559 -   0.0113    1469.863 +   0.0731
+JC+G4              -650.959    1357.917 - 0.000756    1362.259 -  0.00178    1469.887 +   0.0722
+K2P+I              -649.037    1356.073 -   0.0019    1360.738 -   0.0038    1472.043 -   0.0246
+TPM2               -649.326    1356.653 -  0.00142    1361.318 -  0.00285    1472.622 -   0.0184
+K2P+G4             -649.326    1356.653 -  0.00142    1361.318 -  0.00285    1472.622 -   0.0184
+F81+F              -646.629    1353.257 -  0.00777    1358.257 -   0.0132    1473.225 -   0.0136
+TNe+I              -646.743    1353.486 -  0.00693    1358.486 -   0.0117    1473.454 -   0.0121
+TIM2e              -646.825    1353.651 -  0.00638    1358.651 -   0.0108    1473.619 -   0.0112
+TNe+G4             -646.907    1353.814 -  0.00588    1358.814 -  0.00996    1473.782 -   0.0103
+TPM3               -650.220    1358.439 - 0.000582    1363.104 -  0.00117    1474.408 -  0.00753
+K3P                -650.445    1358.890 - 0.000465    1363.555 -  0.00093    1474.860 -  0.00601
+JC+I+G4            -650.649    1359.297 - 0.000379    1363.962 - 0.000759    1475.266 -   0.0049
+TIM3e              -647.722    1355.445 -   0.0026    1360.445 -   0.0044    1475.413 -  0.00456
+HKY+F              -644.894    1351.788 -   0.0162    1357.136 -    0.023    1475.755 -  0.00384
+TIMe               -647.947    1355.894 -  0.00208    1360.894 -  0.00352    1475.862 -  0.00364
+TPM2+I             -647.962    1355.923 -  0.00205    1360.923 -  0.00347    1475.891 -  0.00359
+F81+F+I            -645.146    1352.291 -   0.0126    1357.639 -   0.0179    1476.258 -  0.00299
+TPM2+G4            -648.223    1356.446 -  0.00158    1361.446 -  0.00267    1476.414 -  0.00276
+F81+F+G4           -645.485    1352.970 -  0.00897    1358.317 -   0.0128    1476.937 -  0.00213
+TN+F               -642.489    1348.978 +    0.066    1354.686 +   0.0784    1476.944 -  0.00212
+TIM2e+I            -645.651    1353.302 -   0.0076    1358.650 -   0.0108    1477.269 -   0.0018
+TIM2e+G4           -645.800    1353.599 -  0.00655    1358.947 -  0.00931    1477.566 -  0.00155
+TPM3+I             -648.808    1357.616 - 0.000879    1362.616 -  0.00149    1477.584 -  0.00154
+K3P+I              -649.033    1358.066 - 0.000702    1363.066 -  0.00119    1478.034 -  0.00123
+K2P+I+G4           -649.047    1358.094 - 0.000692    1363.094 -  0.00117    1478.063 -  0.00121
+TPM3+G4            -649.100    1358.200 - 0.000656    1363.200 -  0.00111    1478.168 -  0.00115
+K3P+G4             -649.326    1358.653 - 0.000523    1363.653 - 0.000886    1478.621 - 0.000916
+HKY+F+I            -643.463    1350.926 -   0.0249    1356.635 -   0.0296    1478.892 -   0.0008
+TIM3e+I            -646.506    1355.012 -  0.00323    1360.360 -   0.0046    1478.979 - 0.000766
+TIM3e+G4           -646.675    1355.350 -  0.00273    1360.698 -  0.00388    1479.317 - 0.000647
+TIMe+I             -646.740    1355.481 -  0.00256    1360.829 -  0.00364    1479.448 - 0.000606
+TNe+I+G4           -646.748    1355.495 -  0.00254    1360.843 -  0.00361    1479.462 - 0.000602
+HKY+F+G4           -643.768    1351.536 -   0.0184    1357.244 -   0.0218    1479.502 -  0.00059
+TIMe+G4            -646.907    1355.813 -  0.00216    1361.161 -  0.00308    1479.780 - 0.000513
+TPM2u+F            -644.070    1352.141 -   0.0136    1357.849 -   0.0161    1480.107 - 0.000436
+TN+F+I             -641.282    1348.565 +   0.0812    1354.646 +     0.08    1480.530 - 0.000353
+TN+F+G4            -641.447    1348.894 +   0.0688    1354.975 +   0.0678    1480.859 - 0.000299
+TIM2+F             -641.662    1349.324 +   0.0555    1355.405 +   0.0547    1481.289 - 0.000241
+TPM3u+F            -644.760    1353.519 -  0.00682    1359.227 -   0.0081    1481.485 - 0.000219
+K3Pu+F             -644.892    1353.784 -  0.00597    1359.492 -  0.00709    1481.750 - 0.000192
+TPM2+I+G4          -647.966    1357.932 -  0.00075    1363.280 -  0.00107    1481.899 - 0.000178
+F81+F+I+G4         -645.170    1354.340 -  0.00452    1360.048 -  0.00537    1482.306 - 0.000145
+TIM3+F             -642.355    1350.710 -   0.0278    1356.791 -   0.0274    1482.675 - 0.000121
+TIM+F              -642.488    1350.976 -   0.0243    1357.058 -    0.024    1482.941 - 0.000106
+TIM2e+I+G4         -645.657    1355.314 -  0.00278    1361.022 -   0.0033    1483.280 - 8.92e-05
+TPM2u+F+I          -642.742    1351.485 -   0.0188    1357.566 -   0.0186    1483.450 - 8.19e-05
+TVMe               -648.752    1359.505 - 0.000342    1364.852 - 0.000486    1483.472 -  8.1e-05
+TPM3+I+G4          -648.818    1359.636 -  0.00032    1364.984 - 0.000455    1483.603 - 7.59e-05
+TPM2u+F+G4         -642.984    1351.967 -   0.0148    1358.049 -   0.0146    1483.932 - 6.44e-05
+K3P+I+G4           -649.044    1360.089 - 0.000255    1365.436 - 0.000363    1484.056 - 6.05e-05
+SYM                -646.282    1356.564 -  0.00149    1362.272 -  0.00177    1484.530 - 4.77e-05
+TPM3u+F+I          -643.324    1352.648 -   0.0105    1358.729 -   0.0104    1484.613 - 4.58e-05
+K3Pu+F+I           -643.454    1352.909 -  0.00925    1358.990 -  0.00912    1484.874 - 4.02e-05
+HKY+F+I+G4         -643.477    1352.954 -  0.00904    1359.036 -  0.00891    1484.919 - 3.93e-05
+TIM2+F+I           -640.499    1348.997 +   0.0654    1355.465 +   0.0531    1484.961 - 3.85e-05
+TIM3e+I+G4         -646.509    1357.019 -  0.00118    1362.727 -  0.00141    1484.985 -  3.8e-05
+TPM3u+F+G4         -643.632    1353.263 -  0.00774    1359.345 -  0.00763    1485.228 - 3.37e-05
+TIM2+F+G4          -640.641    1349.282 +   0.0567    1355.749 -   0.0461    1485.246 - 3.34e-05
+TIMe+I+G4          -646.745    1357.490 - 0.000936    1363.198 -  0.00111    1485.456 -    3e-05
+K3Pu+F+G4          -643.764    1353.528 -  0.00678    1359.609 -  0.00669    1485.493 - 2.95e-05
+TIM3+F+I           -641.147    1350.294 -   0.0342    1356.761 -   0.0278    1486.258 - 2.01e-05
+TIM+F+I            -641.276    1350.551 -   0.0301    1357.019 -   0.0244    1486.515 - 1.77e-05
+TN+F+I+G4          -641.286    1350.573 -   0.0297    1357.040 -   0.0242    1486.536 - 1.75e-05
+TIM3+F+G4          -641.313    1350.627 -   0.0289    1357.094 -   0.0235    1486.591 -  1.7e-05
+TVMe+I             -647.380    1358.761 - 0.000496    1364.469 - 0.000589    1486.726 - 1.59e-05
+TIM+F+G4           -641.443    1350.887 -   0.0254    1357.354 -   0.0207    1486.850 -  1.5e-05
+TVMe+G4            -647.623    1359.245 - 0.000389    1364.953 - 0.000462    1487.211 - 1.25e-05
+SYM+I              -645.082    1356.163 -  0.00182    1362.244 -  0.00179    1488.128 -  7.9e-06
+SYM+G4             -645.223    1356.446 -  0.00158    1362.528 -  0.00155    1488.411 - 6.86e-06
+TPM2u+F+I+G4       -642.744    1353.489 -  0.00692    1359.956 -  0.00562    1489.453 - 4.07e-06
+TPM3u+F+I+G4       -643.338    1354.677 -  0.00382    1361.144 -   0.0031    1490.640 - 2.25e-06
+K3Pu+F+I+G4        -643.469    1354.939 -  0.00335    1361.406 -  0.00272    1490.902 - 1.97e-06
+TIM2+F+I+G4        -640.506    1351.012 -   0.0239    1357.879 -   0.0159    1490.975 -  1.9e-06
+TVM+F              -643.541    1355.082 -  0.00312    1361.549 -  0.00254    1491.046 - 1.84e-06
+TIM3+F+I+G4        -641.151    1352.302 -   0.0125    1359.168 -  0.00834    1492.265 - 9.98e-07
+GTR+F              -641.199    1352.397 -   0.0119    1359.264 -  0.00795    1492.360 - 9.52e-07
+TIM+F+I+G4         -641.280    1352.561 -    0.011    1359.427 -  0.00733    1492.523 - 8.77e-07
+TVMe+I+G4          -647.397    1360.793 - 0.000179    1366.875 - 0.000177    1492.758 -  7.8e-07
+SYM+I+G4           -645.102    1358.204 - 0.000655    1364.672 - 0.000532    1494.168 - 3.85e-07
+TVM+F+I            -642.218    1354.437 -  0.00431    1361.303 -  0.00287    1494.400 - 3.43e-07
+TVM+F+G4           -642.449    1354.899 -  0.00342    1361.765 -  0.00228    1494.862 - 2.73e-07
+GTR+F+I            -640.016    1352.032 -   0.0143    1359.310 -  0.00777    1495.993 - 1.55e-07
+GTR+F+G4           -640.145    1352.289 -   0.0126    1359.568 -  0.00683    1496.251 - 1.36e-07
+TVM+F+I+G4         -642.222    1356.444 -  0.00158    1363.722 - 0.000855    1500.406 -  1.7e-08
+GTR+F+I+G4         -640.029    1354.057 -  0.00521    1361.761 -  0.00228    1502.018 - 7.61e-09
+GTR+F+R2           -640.852    1355.703 -  0.00229    1363.407 -    0.001    1503.664 - 3.34e-09
+GTR+F+I+I+R2       -640.330    1356.659 -  0.00142    1364.802 - 0.000499    1508.619 - 2.81e-10
+GTR+F+R3           -640.705    1359.409 - 0.000358    1368.004 - 0.000101    1515.368 - 9.61e-12
+GTR+F+I+I+R3       -640.254    1360.508 - 0.000207    1369.569 -  4.6e-05    1520.466 - 7.51e-13
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: JC
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 1.0000
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 1.0000
+  G-T: 1.0000
+
+State frequencies: (equal frequencies)
+
+Rate matrix Q:
+
+  A        -1    0.3333    0.3333    0.3333
+  C    0.3333        -1    0.3333    0.3333
+  G    0.3333    0.3333        -1    0.3333
+  T    0.3333    0.3333    0.3333        -1
+
+Model of rate heterogeneity: Uniform
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -652.0984 (s.e. 22.4108)
+Unconstrained log-likelihood (without tree): -664.9698
+Number of free parameters (#branches + #model parameters): 27
+Akaike information criterion (AIC) score: 1358.1968
+Corrected Akaike information criterion (AICc) score: 1362.2288
+Bayesian information criterion (BIC) score: 1466.1681
+
+Total tree length (sum of branch lengths): 0.0354
+Sum of internal branch lengths: 0.0221 (62.3859% of tree length)
+
+WARNING: 8 near-zero internal branches (<0.0025) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Clade4_B11245_Venezuela' is drawn at root
+Numbers in parentheses are  standard bootstrap support (%)
+
++**Clade4_B11245_Venezuela
+|
++**Clade4_B12342_Colombia-Cartagena
+|
+|                                                       +**MY
+|                                                    +**| (8)
+|                                                    |  +**Clade1_CA1LBN_Lebanon
+|                                                 +**| (3)
+|                                                 |  +**Clade1_BJCA001_China
+|                                              +**| (7)
+|                                              |  |     +**Clade1_B11205_India
+|                                              |  |  +**| (9)
+|                                              |  |  |  +**Clade1_B13916_United_Arab_Emirates
+|                                              |  +**| (6)
+|                                              |     +**Clade3_B12631_USA-Indiana
+|                                           +**| (59)
+|                                           |  +**Clade3_B17721_USA-California
+|                                    +------| (97)
+|                                    |      +**Clade3_B12037_Canada-Quebec
++------------------------------------| (100)
+                                     |        +------------Clade5_B18474_Iran
+                                     +--------| (51)
+                                              |            +**Clade2_B11220_Japan
+                                              |         +**| (16)
+                                              |         |  +**Clade2_B13463_Canada-Alberta
+                                              |      +**| (18)
+                                              |      |  +**Clade2_B11809_South_Korea
+                                              +------| (86)
+                                                     +**Clade2_B12043_USA-New_York
+
+Tree in newick format:
+
+(Clade4_B11245_Venezuela:0.0000010000,Clade4_B12342_Colombia-Cartagena:0.0000010000,((((((MY:0.0000010000,Clade1_CA1LBN_Lebanon:0.0000010000)8:0.0000010000,Clade1_BJCA001_China:0.0000010000)3:0.0000010000,((Clade1_B11205_India:0.0000010000,Clade1_B13916_United_Arab_Emirates:0.0000010000)9:0.0000010000,Clade3_B12631_USA-Indiana:0.0000010000)6:0.0000010000)7:0.0000010000,Clade3_B17721_USA-California:0.0000010000)59:0.0000010000,Clade3_B12037_Canada-Quebec:0.0000010000)97:0.0035035163,(Clade5_B18474_Iran:0.0062595627,(((Clade2_B11220_Japan:0.0000010000,Clade2_B13463_Canada-Alberta:0.0000010000)16:0.0000010000,Clade2_B11809_South_Korea:0.0000010000)18:0.0000010000,Clade2_B12043_USA-New_York:0.0000010000)86:0.0035474050)51:0.0045447898)100:0.0175681477);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 100 bootstrap trees
+Log-likelihood of consensus tree: -652.109079
+Robinson-Foulds distance between ML tree and consensus tree: 14
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--Clade4_B11245_Venezuela
+|
++--Clade4_B12342_Colombia-Cartagena
+|
+|                                                       +--MY
+|                                                    +--| (14)
+|                                                    |  +--Clade1_B11205_India
+|                                                 +--| (5)
+|                                                 |  +--Clade1_BJCA001_China
+|                                              +--| (5)
+|                                              |  |  +--Clade1_B13916_United_Arab_Emirates
+|                                              |  +--| (12)
+|                                              |     +--Clade3_B12631_USA-Indiana
+|                                           +--| (59)
+|                                           |  |  +--Clade1_CA1LBN_Lebanon
+|                                           |  +--| (13)
+|                                           |     +--Clade3_B17721_USA-California
+|                                    +------| (97)
+|                                    |      +--Clade3_B12037_Canada-Quebec
++------------------------------------| (100)
+                                     |        +------------Clade5_B18474_Iran
+                                     +--------| (51)
+                                              |      +--Clade2_B11220_Japan
+                                              +------| (86)
+                                                     |     +--Clade2_B12043_USA-New_York
+                                                     |  +--| (24)
+                                                     |  |  +--Clade2_B13463_Canada-Alberta
+                                                     +--| (25)
+                                                        +--Clade2_B11809_South_Korea
+
+
+Consensus tree in newick format: 
+
+(Clade4_B11245_Venezuela:0.0000022131,Clade4_B12342_Colombia-Cartagena:0.0000022131,((((((MY:0.0000022131,Clade1_B11205_India:0.0000022131)14:0.0000022131,Clade1_BJCA001_China:0.0000022131)5:0.0000022131,(Clade1_B13916_United_Arab_Emirates:0.0000022131,Clade3_B12631_USA-Indiana:0.0000022131)12:0.0000022131)5:0.0000022131,(Clade1_CA1LBN_Lebanon:0.0000022131,Clade3_B17721_USA-California:0.0000022131)13:0.0000022131)59:0.0000022131,Clade3_B12037_Canada-Quebec:0.0000022131)97:0.0035024653,(Clade5_B18474_Iran:0.0062593994,(Clade2_B11220_Japan:0.0000022131,((Clade2_B12043_USA-New_York:0.0000022131,Clade2_B13463_Canada-Alberta:0.0000022131)24:0.0000022131,Clade2_B11809_South_Korea:0.0000022131)25:0.0000022131)86:0.0035464720)51:0.0045466631)100:0.0175678139);
+
+TIME STAMP
+----------
+
+Date and time: Tue Dec  6 21:53:22 2022
+Total CPU time used: 0.61592 seconds (0h:0m:0s)
+Total wall-clock time used: 0.4579098225 seconds (0h:0m:0s)
+
