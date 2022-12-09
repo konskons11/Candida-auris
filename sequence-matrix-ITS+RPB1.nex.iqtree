@@ -175,13 +175,13 @@ NOTE: Tree is UNROOTED although outgroup taxon 'Clade1_B11205_India' is drawn at
 |     |       +------------------------|
 |     |                                +**Clade4_B12342_Colombia-Cartagena
 |  +**|
-|  |  +--MY
+|  |  +--OL455790-OL539420
 +**|
    +**Clade3_B12037_Canada-Quebec
 
 Tree in newick format:
 
-(Clade1_B11205_India:0.0000010004,Clade1_B13916_United_Arab_Emirates:0.0000010004,(((((Clade2_B11220_Japan:0.0000010004,Clade2_B11809_South_Korea:0.0000010004):0.0022866320,Clade5_B18474_Iran:0.0120252384):0.0012133983,(Clade4_B11245_Venezuela:0.0000010004,Clade4_B12342_Colombia-Cartagena:0.0000010004):0.0064850976):0.0022789220,MY:0.0009263011):0.0000010004,Clade3_B12037_Canada-Quebec:0.0000010004):0.0000010004);
+(Clade1_B11205_India:0.0000010004,Clade1_B13916_United_Arab_Emirates:0.0000010004,(((((Clade2_B11220_Japan:0.0000010004,Clade2_B11809_South_Korea:0.0000010004):0.0022866320,Clade5_B18474_Iran:0.0120252384):0.0012133983,(Clade4_B11245_Venezuela:0.0000010004,Clade4_B12342_Colombia-Cartagena:0.0000010004):0.0064850976):0.0022789220,OL455790-OL539420:0.0009263011):0.0000010004,Clade3_B12037_Canada-Quebec:0.0000010004):0.0000010004);
 
 
 USER TREES
