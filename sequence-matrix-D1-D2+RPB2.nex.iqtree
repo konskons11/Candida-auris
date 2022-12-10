@@ -1,6 +1,5 @@
 IQ-TREE 2.2.0 COVID-edition built Jun  1 2022
 
-Input file name: /Users/kostaskons94/Desktop/CANDIDA/IQTREE2/D1-D2+RPB2-SUCCESS/D1-D2+RPB2.nex
 Type of analysis: ModelFinder + tree reconstruction
 Random seed number: 688509
 
@@ -185,7 +184,6 @@ Tree in newick format:
 USER TREES
 ----------
 
-See /Users/kostaskons94/Desktop/CANDIDA/IQTREE2/D1-D2+RPB2-SUCCESS/D1-D2+RPB2.nex.trees for trees with branch lengths.
 
 Tree      logL    deltaL  bp-RELL    p-KH     p-SH       c-ELW
 ------------------------------------------------------------------
